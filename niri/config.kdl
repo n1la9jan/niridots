@@ -54,8 +54,8 @@ layout {
       width 0
   }
   border {
-    off
-    width 5
+    on
+    width 2
     active-color "#ffc87f"
     inactive-color "#505050"
     urgent-color "#9b0000"
@@ -183,3 +183,4 @@ recent-windows {
 include "dms/alttab.kdl"
 include "dms/cursor.kdl"
 include "dms/binds.kdl"
+include "dms/colors.kdl"
