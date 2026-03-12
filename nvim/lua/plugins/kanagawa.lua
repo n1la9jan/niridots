@@ -1,5 +1,6 @@
 return {
   "rebelot/kanagawa.nvim",
+  lazy = false,
   priority = 1000,
   config = function()
     require("kanagawa").setup({
@@ -10,7 +11,7 @@ return {
       keywordStyle = { italic = true },
       statementStyle = { italic = true },
       typeStyle = {},
-      transparent = true,
+      transparent = false,
       terminalColors = false,
       colors = {
         theme = { all = { ui = { bg_gutter = "none" } } },
@@ -51,7 +52,11 @@ return {
           DiagnosticVirtualTextError = makeDiagnosticColor(theme.diag.error),
         }
       end,
-      theme = "wave", -- Load "wave" theme
+      theme = "dragon", -- Load "wave" theme
+      background = { -- map the value of 'background' option to a theme
+        dark = "dragon",
+        light = "lotus",
+      },
     })
   end,
 }

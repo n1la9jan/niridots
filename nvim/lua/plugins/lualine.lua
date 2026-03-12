@@ -10,10 +10,6 @@ return {
   end,
 
   config = function()
-    require("lualine").setup({
-      options = {
-        theme = "gruvbox",
-      },
-    })
+    require("lualine").setup({})
   end,
 }

@@ -1,0 +1,17 @@
+# theme = dark:Atom One Dark,light:Atom One Light
+# theme = dark:Gruvbox Dark,light:Gruvbox Light
+# theme = Kanagawa Dragon
+# theme = dark:Rose Pine Moon,light:Rose Pine Dawn
+# theme = iTerm2 Solarized Dark
+# theme = dark: Everforest Dark Hard,light: Gruvbox Light
+# theme = dark: TokyoNight Moon,light: TokyoNight Day
+# theme = dark: GitHub Dark,light: GitHub Light Default
+# theme = dark: Nordfox,light: Dayfox
+theme = dark: Terafox,light: Dayfox
+# theme = dark: Catppuccin Mocha,light: Catppuccin Latte
+font-size = 11
+font-family="DankMono Nerd Font"
+font-style-bold=""
+font-style-italic=""
+font-style-bold-italic=""
+
