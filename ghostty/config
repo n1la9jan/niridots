@@ -7,10 +7,12 @@
 # theme = dark: TokyoNight Moon,light: TokyoNight Day
 # theme = dark: GitHub Dark,light: GitHub Light Default
 # theme = dark: Nordfox,light: Dayfox
-theme = dark: Terafox,light: Dayfox
-# theme = dark: Catppuccin Mocha,light: Catppuccin Latte
+# theme = dark: Terafox,light: Dayfox
+theme = dark: Catppuccin Mocha,light: Catppuccin Latte
 font-size = 11
-font-family="DankMono Nerd Font"
+# font-family="DankMono Nerd Font"
+# font-family="JetBrainsMono Nerd Font"
+font-family="ZedMono Nerd Font"
 font-style-bold=""
 font-style-italic=""
 font-style-bold-italic=""

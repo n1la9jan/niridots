@@ -1,12 +1,21 @@
     window-rule {
-        opacity 1.0
-        geometry-corner-radius 5 // Set every window radius to 20
-        clip-to-geometry true
+        opacity 0.8
+        background-effect {
+          blur true
+          xray false
+        }
+        geometry-corner-radius 0 // Set every window radius to 20
+        clip-to-geometry false
     }
-
     layer-rule {
         match namespace="^noctalia-wallpaper*"
         place-within-backdrop true
+    }
+    blur {
+      passes 2
+      offset 3.0
+      noise 0.02
+      saturation 1
     }
     window-rule {
         match app-id=r#"^org\.wezfurlong\.wezterm$"#
@@ -43,6 +52,7 @@
         match app-id="firefox"
         match app-id="kitty"
         match app-id="zed"
+        match app-id="discord"
         draw-border-with-background false
     }
     window-rule {
@@ -53,6 +63,7 @@
     }
     window-rule {
         match app-id=r#"zen$"#
+        match app-id=r#"firefox$"#
         opacity 1.0
     }
     window-rule {

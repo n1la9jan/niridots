@@ -1,8 +1,8 @@
     layout {
-        gaps 40 // Gap between windows
+        gaps 5 // Gap between windows
         background-color "transparent"
         always-center-single-column
-        center-focused-column "always"
+        // center-focused-column "always"
         preset-column-widths {
             proportion 0.25
             proportion 0.5
@@ -10,15 +10,15 @@
             proportion 0.1
         }
         default-column-width {
-            proportion 0.5
+            proportion 1.0
         }
         focus-ring {
           width 0
         }
 
         border {
-          off
-          width 3
+          on
+          width 2
         }
 
         struts {
