@@ -53,6 +53,7 @@
         match app-id="kitty"
         match app-id="zed"
         match app-id="discord"
+        match app-id=r#"^org.telegram.desktop$"#
         draw-border-with-background false
     }
     window-rule {
