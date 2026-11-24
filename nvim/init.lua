@@ -25,9 +25,9 @@ local function set_dynamic_colorscheme()
   vim.o.background = bg
 
   if bg == "light" then
-    vim.cmd.colorscheme("dawnfox")
+    vim.cmd.colorscheme("tokyonight")
   else
-    vim.cmd.colorscheme("carbonfox")
+    vim.cmd.colorscheme("tokyonight")
   end
 end
 

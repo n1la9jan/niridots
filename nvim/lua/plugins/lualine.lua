@@ -10,6 +10,8 @@ return {
   end,
 
   config = function()
-    require("lualine").setup({})
+    require("lualine").setup({
+      theme = require("lualine.themes.moondust"),
+    })
   end,
 }
